@@ -1,0 +1,425 @@
+/*  Base elements */ 
+
+* {
+	margin: 0;
+}
+
+body {
+	background-color: #FAFAFA;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+	text-align: center;
+}
+
+p, li {
+	font-family: 'Cabin', sans-serif;
+}
+
+/* header stuff */ 
+
+#title {
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+
+.nav-columns {
+	 margin:  auto;
+	 width: 80%;
+	 display:inline;
+}
+
+
+
+ul li {
+	background-color: #fff;
+	padding: 5px; 
+	list-style-type: none;
+	text-decoration: none;
+	margin-top: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	
+
+}
+
+li a {
+	text-decoration: none;
+	color: black;
+}
+
+/* main body stuff */ 
+
+.image-and-content-div {
+	text-align: center;
+}
+
+#profile-image-text {
+	text-align: center;
+    margin: 0 auto;
+}
+
+.profile-image {
+	width: 70%;
+	opacity: 0.7;
+}
+
+#me-intro {
+	opacity: 0.6;
+}
+
+.card-wrap {
+	background-color: #fff;
+	text-align: center;
+	padding-bottom: 30px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.contact-section, #phone-content, #email, .portfolio-section, #marketing-intro, #search-intro, #travel-intro, #map-intro, #photo-intro, #calc-intro {
+	padding-top: 20px;
+	padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact-intro {
+	text-align: center;
+    padding-bottom: 20px;
+}
+
+
+
+#marketing-intro, #search-intro, #travel-intro, #map-intro, #photo-intro, #calc-intro {
+	font-weight: 100;
+	opacity: 0.7;
+}
+
+#contact-intro {
+	opacity: 0.7;
+}
+
+#number, #email-address, #student-name {
+	color: #7F7F7F;
+}
+
+.blue-image, .yellow-image, .gray-image, .purple-image, .green-image {
+	width: 85%;
+}
+
+/* footer */ 
+
+#mobile-footer #student-name, #student-back {
+	display: inline;
+	vertical-align:top;
+	margin-left: 10px;
+    margin-right: 10px;
+}
+
+.back-to-top {
+		float: right;
+		font-size: 22px;
+	}
+
+	footer {
+		width: 90%;
+	}
+
+#bottom-line {
+	margin: 20px;
+}
+
+ .erik-name {
+	font-size: 22px;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*  media queries */ 
+
+@media (min-width: 1024px) {
+
+	/*  header stuff */
+
+	.clearfix::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	#title,
+	.nav-columns a {
+	padding: 10px 15px;
+	text-align: center;
+	display: block;
+}
+
+#title,
+	.nav-columns li {
+		text-align: center;
+		margin-top: 6px;
+		margin-bottom: 6px;
+	}
+
+	#title,
+	.nav-columns li {
+		float: left;
+	}
+
+
+	.nav-columns li {
+		display:inline-block;
+		text-transform: uppercase;
+		margin-left: 12px;
+	}
+
+	header {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.nav-columns li {
+		float: right;
+	}
+
+	h2 {
+		color: black;
+	}
+
+	ul li {
+		display: inline-block;
+		background: transparent;
+
+	}
+
+	header  {
+		text-align: center;
+	}
+
+	#title {
+		margin-bottom: 20px;
+	}
+
+	#portfolio {
+		    padding-top: 10px;
+	}
+
+	
+	.image-and-content-div {
+		margin-top: 50px;
+		margin-bottom: 40px;
+	}
+
+	.image-and-content-div .profile-image {
+		display:inline-block;
+		float:right;
+	}
+
+	.profile-image {
+		width: 40%;
+		color: #9B9B9B;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	
+
+	/* card row stuff */ 
+	
+	#marketing-info, #search-info, #travel-info, #map-info, #photo-info, #calc-info  {
+		width: 30%;
+		display: inline-block;
+    	
+	}
+
+	#mobile-footer {
+		display: none;
+	}
+
+	#erik-footer-name,
+	.footer-mobile-list a {
+	padding: 10px 15px;
+	text-align: center;
+	display: block;
+}
+
+#erik-footer-name,
+	.footer-mobile-list #list-items {
+		text-align: center;
+		margin-top: 6px;
+		margin-bottom: 6px;
+	}
+
+	#erik-footer-name,
+	.footer-mobile-list #list-items {
+		float: left;
+	}
+
+
+	.footer-mobile-list li {
+		display:inline-block;
+		text-transform: uppercase;
+		margin-left: 12px;
+	}
+
+	#tablet-footer {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.footer-mobile-list {
+		float: right;
+	}
+	
+
+#marketing-intro, #search-intro, #travel-intro, #map-intro, #photo-intro, #calc-intro {
+	text-align: center;
+    	width: 80%;
+    	margin: 0 auto;
+    	padding-bottom: 30px;
+}
+
+
+
+}
+
+@media (max-width: 767px)   {
+	#tablet-footer {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+	h2 {
+		color: black;
+	}
+
+	ul li {
+		display: inline-block;
+		background: transparent;
+
+	}
+
+	header  {
+		text-align: center;
+	}
+
+	#title {
+		margin-bottom: 20px;
+	}
+
+	#portfolio {
+		    padding-top: 10px;
+	}
+
+	
+	.image-and-content-div {
+		margin-top: 50px;
+		margin-bottom: 40px;
+	}
+
+	.image-and-content-div .profile-image {
+		display:inline-block;
+		float:right;
+	}
+
+	.profile-image {
+		width: 40%;
+		color: #9B9B9B;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	#marketing-info, #search-info, #travel-info, #map-info, #photo-info, #calc-info {
+		width: 45%;
+    	margin-top: 30px;
+    	display:inline-block;
+
+	}
+
+	.card-wrap {
+		background-size: cover;
+		width: 100%;
+		margin: 0;
+		padding-bottom: 30px;
+	}
+
+	.contact-section {
+		padding-top: 30px;
+		padding-bottom: 30px;
+    	text-align: center;
+	}
+
+	#phone-content, #email {
+		text-align: center;
+		margin: 10px;
+	}
+
+	#contact-intro {
+		text-align: center;
+    	width: 60%;
+    	margin: 0 auto;
+    	padding-bottom: 30px;
+	}
+
+	
+
+	 
+
+	
+
+	#mobile-footer {
+		display: none;
+	}
+
+	#erik-footer-name,
+	.footer-mobile-list a {
+	padding: 10px 15px;
+	text-align: center;
+	display: block;
+}
+
+#erik-footer-name,
+	.footer-mobile-list #list-items {
+		text-align: center;
+		margin-top: 6px;
+		margin-bottom: 6px;
+	}
+
+	#erik-footer-name,
+	.footer-mobile-list #list-items {
+		float: left;
+	}
+
+
+	.footer-mobile-list li {
+		display:inline-block;
+		text-transform: uppercase;
+		margin-left: 12px;
+	}
+
+	#tablet-footer {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.footer-mobile-list {
+		float: right;
+	}
+
+
+	.clearfix::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
