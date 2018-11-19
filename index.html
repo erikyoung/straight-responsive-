@@ -1,111 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
-		<title>Responsive Layout</title>
-		<link rel="stylesheet" href="css/styles.css">
-	</head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <title>Erik's Portfolio</title>
+</head>
 <body>
-<div class="container"> 
-<header>
-	<h2 id="title">Erik Young</h2>
-	<ul class="nav-columns">
-		<li><a href="#">Home</a></li>
-		<li><a href="#portfolio">Portfolio</a></li>
-		<li><a href="#contact">Contact</a></li>
-	</ul>
-</header>
-</div><!--container--> 
+  <header>
+    <div class="wrapper">
+      <div class="title-bar">
+        <h1 id="top">Erik Young</h1>
+        <nav>
+          <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact-me">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="intro">
+       
+        <p>The digital self and the actual self are becoming the same thing. I want to help people find the right self to present to the world so that they can realize the life that they want for themselves. I do UX Designs and Front-end Development.  </p>
+      </div>
+    </div>
+  </header>
 
+  <section id="portfolio" class="portfolio">
+    <h3>PORTFOLIO</h3>
+    <div class="p-items">
+      <div class="p-item">
+        <img src="images/portfolio-1.png" alt="Marketing Page">
+        <h4>Marketing Page</h4>
+        <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+      </div>
 
+      <div class="p-item">
+        <img src="images/portfolio-2.png" alt="Search Page">
+        <h4>Search Page</h4>
+        <p>
+           This projects searches through a specific database to find information that the user is trying to look up.
+        </p>
+      </div>
 
-	<div class="image-and-content-div clearfix">
-		<img class="profile-image" src="images/responsive-layout-profile.png" alt="profile image">
-		<p class="profile-image" id="profile-image-text">Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use</p>
-	</div><!--image-and-content-div--> 
+      <div class="p-item">
+        <img src="images/portfolio-3.png" alt="Travel App">
+        <h4>Travel App</h4>
+        <p>
+          This project compares travel times based on different transportation method and tells you the best one.
+        </p>
+      </div>
 
-<div class="card-wrap">
-	<div id="portfolio">
-		<h4 class="portfolio-section">PORTFOLIO</h4>
-	</div><!--portfolio--> 
+      <div class="p-item">
+        <img src="images/portfolio-4.png" alt="Map of Favorite Spots">
+        <h4>Map of Favorite Spots</h4>
+        <p>
+           This project uses mapping APIs to plot points for my favorite spots in the city for a do-it-yourself walking tour.
+        </p>
+      </div>
 
-	<div id="marketing-info">
-		<img class="blue-image"  src="images/portfolio-1.png" alt="ecommerce project card">
-		<h4 class="portfolio-section" >Marketing Page</h4>
-		<p id="marketing-intro" >This project shows the front page of a marketing website meant for a specific business I'm interestd in.</p>
-	</div>
+      <div class="p-item">
+        <img src="images/portfolio-5.png" alt="Photo Gallery">
+        <h4>Photo Gallery</h4>
+        <p>
+          This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.
+        </p>
+      </div>
 
-	<div id="search-info">
-		<img class="yellow-image"  src="images/portfolio-2.png" alt="search engine project image">
-		<h4 class="portfolio-section" >Search Page</h4>
-		<p id="search-intro" >This project searches through a specific database to find information that the user is trying to look up.</p>
-		
-	</div><!--portfolio--> 
+      <div class="p-item">
+        <img src="images/portfolio-6.png" alt="Calculator">
+        <h4>Calculator</h4>
+        <p>
+          Someone can enter in the numbers they want, and press the big blue button to get the results.
+        </p>
+      </div>
+    </div>
+  </section>
 
-<div id="travel-info">
-	<img class="yellow-image"  src="images/portfolio-3.png" alt="travel image card">
-		<h4 class="portfolio-section" >Travel App</h4>
-		<p id="travel-intro" >This project compares travel times based on different transportation methods and tells you the best one.</p>
-		
-</div><!--portfolio--> 
+  
 
-<div id="map-info">
-	<img class="green-image"  src="images/portfolio-4.png" alt="map project card">
-		<h4 class="portfolio-section" >Map of Favorite Spots</h4>
-		<p id="map-intro" >This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour</p>
-		
-</div><!--portfolio--> 
-
-<div id="photo-info">
-	<img class="purple-image"  src="images/portfolio-5.png" alt="photo gallery">
-		<h4 class="portfolio-section" >Photo Gallery</h4>
-		<p id="photo-intro" >This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos</p>
-		
-</div><!--portfolio--> 
-
-<div id="calc-info">
-	<img class="gray-image"  src="images/portfolio-6.png" alt="calculator project card">
-		<h4 class="portfolio-section">Calculator</h4>
-		<p id="calc-intro">Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
-		
-</div><!--portfolio--> 
-
-</div><!--card-wrap-->
-
-<div id="#contact clearfix">
-
-	<h4 class="contact-section">CONTACT</h4>
-	<p id="contact-intro">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you</p>
-
-	<p id="phone-content">Phone <span id="number"><strong>+1 (111) 555-1234</strong></span></p>
-
-	<p id="email">Email <span id="email-address"><strong>email@yoursite.com</strong></span></p>
-
-	<hr id="bottom-line">
-
-</div><!--contact-->
-	
-
-
-<footer id="mobile-footer">
-	<p id="student-name"><a class="erik-name" href="#title">Erik Young</a></p>
-	<p class="back-to-top" id="student-back">BACK TO TOP</p>
-</footer>
-
-<footer id="tablet-footer">
-<p id="erik-footer-name">Erik Young</p>
-<ul class="footer-mobile-list">
-	<li><a href="index.html">home</a></li>
-	<li><a href="#portfolio">Portfolio</a></li>
-	<li><a href="#contact">contact</a></li>
-</ul>
-</footer>
-	
-
-
-
+  <footer>
+    <section  id="contact-me" class="contact-me">
+      <h3>CONTACT</h3>
+      <p>If you want more information about the kinds of projects I'm working on, feel free to get in touch with me.</p>
+      <table>
+        <tr>
+          <td>Phone</td>
+          <td>(440) 876-5309</td>
+        </tr>
+        <tr>
+          <td>E-Mail</td>
+          <td>eriklol@gmail.com</td>
+        </tr>
+      </table>
+    </section>
+    <hr>
+    <section class="bottom-cap">
+      <p>Erik Young</p>
+      <a href="#top">BACK TO TOP</a>
+      <nav>
+        <ul>
+          <li><a href="#top">HOME</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#contact-me">CONTACT</a></li>
+        </ul>
+      </nav>
+    </section>
+  </footer>
 </body>
 </html>
